@@ -36,12 +36,18 @@ es_menor_a_cero(numero): Esta función, como indica su nombre, sirve para compro
 buscar_id(id): Esta función accede a la base de datos y busca un elemento por su id. En caso de encontrarlo, retorna True. De otra forma, retorna False
 
 mostrar_elemento(lista): Esta función recorre los elementos de una lista (productos en este caso) e imprime cada uno con el formato:
-ID: 
-Nombre: 
-Descripción: 
+
+ID:
+
+Nombre:
+
+Descripción:
+
 Cantidad:
+
 Precio: $
-Categoría: 
+
+Categoría:
 
 registrar_productos(): Esta función accede a la base de datos, pide al usuario que ingrese cada dato necesario (comprobando que los números sean positivos) y luego agrega esos datos, cada uno en su campo. Finalmente guarda la información y cierra la conexión
 
